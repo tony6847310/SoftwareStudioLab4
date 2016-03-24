@@ -17,19 +17,22 @@ public class Square extends Shape {
 		// Java 'Color' class takes 3 floats, from 0 to 1.
 		
 		// TODO Return color produced by three rgb floats.
-		return new Color(r, g, b);
+		Random r = new Random();
+		Color c = new Color(r.nextFloat(), r.nextFloat(), r.nextFloat());
+		
+		return c;
 	}
 	
 	@Override
 	public int getShapeWidth(){
 		// TODO Return Square width
-		return 0;
+		return this.shapeWidth;
 	}
 	
 	@Override
 	public int getShapeHeight(){
 		// TODO Return Square height
-		return 0;
+		return this.shapeWidth;
 	}
 
 
