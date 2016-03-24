@@ -9,10 +9,9 @@ SoftwareStudio Lab4 2016
 
 # 組員二
 
-姓名：
+姓名：培雷斯
 
-學號：
-
+學號：101062281
 #Screenshot
 
 ![alt tag](/csc.png)
